@@ -7,7 +7,7 @@ public class Buublesort {
 
     
     public static void main(String[] args) {
-        int c, d, n, swap;
+        int c, d, n, paws;
         Scanner scanner = new Scanner (System.in);
         
         System.out.println("Введите кол-во чисел");
@@ -21,9 +21,9 @@ public class Buublesort {
             for (d=0; d<n-c-1; d++){
                 if (array[d]>array[d+1])
                 {
-                    swap = array[d];
+                    paws = array[d];
                     array[d] = array[d+1];
-                    array[d+1] = swap;
+                    array[d+1] = paws;
                 
                 }
             }
