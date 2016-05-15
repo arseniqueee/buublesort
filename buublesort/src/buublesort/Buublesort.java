@@ -1,7 +1,6 @@
 package buublesort;
-
 import java.util.Scanner;
-
+import java.lang.System;
 
 public class Buublesort {
 
